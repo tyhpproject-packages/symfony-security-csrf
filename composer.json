@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-security-csrf",
+    "description": "Tyhp type definitions for symfony/security-csrf 7.4.8.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "7.4.8",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-security-csrf-impl": "~7.4.8.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-security-csrf-impl"
+        }
+    }
+}
